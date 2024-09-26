@@ -23,10 +23,7 @@ vector<int> pairsum(vector<int> num, int target) {
     }
                 return ans;  // Return as soon as the pair is found
             }
-        }
-    }
-    return ans;  // Return an empty vector if no pair is found
-}
+       
 
 int main() {
     vector<int> num = {-1, 2, 3, 4, -5, 6, 7};
